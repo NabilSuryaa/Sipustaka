@@ -1,0 +1,501 @@
+No,Nama,Jenis kelamin,kunjungan,Pinjaman,Gendre,Keterlambatan,Denda,Kegiatan
+1,brandon,pria,14,23,romance,6,yes,membaca
+2,malone,pria,47,112,sains,14,yes,kerja tugas
+3,justin,pria,23,2,math,12,no,kerja tugas
+4,bad,pria,55,155,fantasy,34,yes,membaca
+5,vernon,pria,44,44,edukasi,23,no,membaca
+6,mingyu,pria,78,34,cerita rakyat,8,yes,membaca
+7,lisa,wanita,66,34,romance,12,yes,membaca
+8,kai,pria,90,3,sains,12,no,kerja tugas
+9,taehyung,pria,33,22,edukasi,1,yes,membaca
+10,jennie,wanita,66,44,fantasy,23,yes,membaca
+11,jungkook,pria,45,45,math,4,yes,kerja tugas
+12,stella,wanita,16,12,romance,12,no,membaca
+13,flora,wanita,88,122,edukasi,12,no,membaca
+14,bloom,wanita,102,144,fantasy,45,yes,membaca
+15,tecna,wanita,8,3,sains,12,no,kerja tugas
+16,layla,wanita,73,33,romance,23,yes,membaca
+17,musa,wanita,34,44,cerita rakyat,7,yes,membaca
+18,roxy,wanita,33,56,edukasi,1,yes,membaca
+19,jisoo,wanita,23,23,math,23,yes,kerja tugas
+20,rose,wanita,44,44,romance,3,yes,membaca
+21,abel,pria,45,23,fantasy,9,yes,membaca
+22,lily,wanita,22,78,edukasi,44,yes,kerja tugas
+23,ariana,wanita,56,99,cerita rakyat,1,yes,membaca
+24,billie,wanita,22,2,math,2,yes,tidur
+25,taylor,wanita,56,77,fantasy,9,yes,membaca
+26,sabrina,wanita,73,12,edukasi,5,yes,kerja tugas
+27,sakura,wanita,23,122,sains,12,no,belajar
+28,beyonce,wanita,3,56,comedi,33,yes,tidur
+29,adelle,wanita,1,1,cerita rakyat,1,yes,membaca
+30,offset,pria,34,56,fantasy,2,yes,membaca
+31,cardi,wanita,22,78,edukasi,44,yes,kerja tugas
+32,nicky,wanita,22,78,fantasy,2,yes,membaca
+33,doja,wanita,67,3,math,3,yes,belajar
+34,selena,wanita,98,30,edukasi,9,yes,membaca
+35,gaga,wanita,40,20,fantasy,12,no,membaca
+36,yuna,wanita,8,12,math,12,yes,belajar
+37,wony,wanita,11,10,cerita rakyat,12,no,membaca
+38,yujin,wanita,22,7,comedi,2,yes,membaca
+39,ruka,wanita,12,19,sains,1,yes,belajar
+40,minji,wanita,22,78,edukasi,44,yes,kerja tugas
+41,melanie,wanita,50,55,romance,2,yes,membaca
+42,karina,wanita,122,45,sains,4,yes,kerja kelompok
+43,giselle,wanita,23,67,math,2,yes,kerja kelompok
+44,winter,wanita,66,34,romance,12,yes,membaca
+45,ningning,wanita,16,0,romance,12,no,membaca
+46,yeji,wanita,16,0,romance,0,no,membaca
+47,cimoy,wanita,66,34,romance,12,yes,membaca
+48,sam,pria,2,24,romance,2,yes,tidur
+49,jake,pria,45,90,comedi,2,yes,membaca
+50,jimin,pria,22,22,sains,12,no,belajar
+51,jin,pria,10,5,cerita rakyat,12,no,membaca
+52,oxy,pria,45,45,math,4,yes,kerja tugas
+53,ryo,pria,2,1,edukasi,2,yes,belajar
+54,alex,pria,44,1,romance,12,no,membaca
+55,kahirul,pria,23,2,fantasy,2,yes,tidur
+56,ade,pria,4,90,math,90,yes,belajar
+57,dirga,pria,45,45,math,4,yes,kerja tugas
+58,alfin,pria,1,1,sains,1,no,membaca
+59,michael,pria,16,35,romance,3,yes,membaca
+60,dinda,wanita,73,33,romance,23,yes,membaca
+61,dinar,wanita,22,78,edukasi,44,yes,kerja tugas
+62,evei,wanita,66,34,romance,12,yes,membaca
+63,lana,wanita,111,5,comedi,3,no,tidur
+64,sza,wanita,73,33,romance,23,yes,membaca
+65,madison,wanita,90,90,edukasi,1,no,belajar
+66,natty,wanita,32,62,cerita rakyat,1,yes,membaca
+67,belle,wanita,11,34,sains,2,no,belajar
+68,zico,pria,45,45,math,4,yes,kerja tugas
+69,tyla,wanita,9,2,cerita rakyat,2,no,membaca
+70,yuki,wanita,73,33,romance,23,yes,membaca
+71,januar nur,pria,36,10,cerita rakyat,15,yes,membaca
+72,denny nur,pria,15,17,romance,21,yes,membaca
+73,salman saputra,pria,44,59,math,3,yes,membaca
+74,yasmin,wanita,52,73,math,4,yes,belajar
+75,umi wijaya,wanita,53,80,fantasy,5,yes,membaca
+76,bella,wanita,63,90,romance,14,yes,membaca
+77,rina nur,wanita,10,5,romance,14,yes,membaca
+78,pandu utami,pria,19,0,edukasi,0,no,kerja tugas
+79,zahra hidayat,wanita,24,11,math,0,no,belajar
+80,taufik firmansyah,pria,76,97,fantasy,2,yes,membaca
+81,kayla saputra,wanita,21,27,edukasi,8,yes,belajar
+82,gisel,wanita,79,41,math,4,yes,membaca
+83,wulan pratama,wanita,8,15,sains,2,yes,membaca
+84,yuli wijaya,wanita,30,48,math,1,yes,belajar
+85,maya utami,wanita,64,31,fantasy,37,yes,membaca
+86,nanda wijaya,pria,29,51,comedi,0,no,membaca
+87,zara aditya,wanita,37,44,cerita rakyat,5,yes,membaca
+88,lia maulana,wanita,9,12,edukasi,0,no,kerja kelompok
+89,kayla permata,wanita,52,51,romance,0,no,membaca
+90,nadia,wanita,32,31,sains,17,yes,membaca
+91,vina,wanita,26,39,cerita rakyat,3,yes,membaca
+92,hana utami,wanita,39,40,romance,1,yes,membaca
+93,intan,wanita,3,0,cerita rakyat,0,no,membaca
+94,naufal sari,pria,13,0,edukasi,0,no,membaca
+95,windi,wanita,25,8,cerita rakyat,0,no,membaca
+96,rani,wanita,37,37,sains,10,yes,kerja tugas
+97,laras lestari,wanita,18,13,sains,10,yes,belajar
+98,rani permata,wanita,12,0,cerita rakyat,0,no,tidur
+99,jasmine utami,wanita,6,0,edukasi,0,no,membaca
+100,lutfi wijaya,pria,17,7,comedi,8,yes,tidur
+101,budi saputra,pria,35,21,fantasy,0,no,membaca
+102,reza,pria,5,0,comedi,0,no,tidur
+103,indah saputra,wanita,2,4,sains,13,yes,kerja tugas
+104,zahra utami,wanita,57,94,math,3,yes,kerja tugas
+105,zara,wanita,30,28,comedi,16,yes,membaca
+106,adi hidayat,pria,125,57,comedi,9,yes,membaca
+107,wahyu wijaya,pria,45,58,math,8,yes,belajar
+108,candra,pria,37,63,comedi,0,no,membaca
+109,sinta maulana,wanita,48,14,romance,1,yes,kerja tugas
+110,mahendra,pria,38,58,fantasy,0,no,kerja tugas
+111,bunga maulana,wanita,20,8,sains,29,yes,kerja kelompok
+112,dewi utami,wanita,5,0,romance,0,no,belajar
+113,tania kusuma,wanita,25,31,romance,11,yes,kerja kelompok
+114,vera sari,wanita,37,34,romance,10,yes,membaca
+115,yuli kusuma,wanita,26,9,edukasi,5,yes,membaca
+116,farah wijaya,wanita,12,10,fantasy,8,yes,membaca
+117,lia ramadhan,wanita,16,9,fantasy,11,yes,membaca
+118,zahra saputra,wanita,26,47,edukasi,0,no,belajar
+119,aulia aditya,wanita,1,0,comedi,0,no,tidur
+120,ulfa permata,wanita,16,13,comedi,24,yes,membaca
+121,yasmin sari,wanita,23,16,romance,20,yes,membaca
+122,nadia lestari,wanita,29,42,cerita rakyat,14,yes,membaca
+123,rafi sari,pria,31,30,fantasy,3,yes,membaca
+124,ilham utami,pria,55,95,romance,1,yes,membaca
+125,indah hidayat,wanita,8,1,sains,2,yes,tidur
+126,rangga nur,pria,40,53,sains,0,no,kerja tugas
+127,aulia maulana,wanita,18,0,math,0,no,tidur
+128,citra pratama,wanita,39,52,romance,14,yes,membaca
+129,fitri utami,wanita,40,7,cerita rakyat,23,yes,membaca
+130,arif pratama,pria,4,1,cerita rakyat,0,no,membaca
+131,intan pratama,wanita,113,95,fantasy,1,yes,membaca
+132,krisna sari,pria,13,0,romance,0,no,membaca
+133,nanda maulana,pria,31,24,sains,10,yes,belajar
+134,olivia wijaya,wanita,43,62,romance,13,yes,membaca
+135,mahendra anggraini,pria,23,6,cerita rakyat,10,yes,membaca
+136,windi aditya,wanita,2,0,romance,0,no,membaca
+137,nisa,wanita,49,42,fantasy,0,no,membaca
+138,irfan,pria,7,5,math,20,yes,belajar
+139,tania hidayat,wanita,56,54,romance,0,no,membaca
+140,putri,wanita,56,9,cerita rakyat,0,no,membaca
+141,laras kusuma,wanita,62,26,cerita rakyat,8,yes,membaca
+142,zara kusuma,wanita,15,24,comedi,0,no,membaca
+143,gisel wijaya,wanita,6,0,romance,0,no,membaca
+144,hendra kusuma,pria,13,6,romance,0,no,membaca
+145,cantika aditya,wanita,40,36,sains,3,yes,membaca
+146,rina utami,wanita,64,102,cerita rakyat,2,yes,membaca
+147,arif maulana,pria,11,10,sains,10,yes,kerja tugas
+148,nisa firmansyah,wanita,40,26,edukasi,10,yes,belajar
+149,tania maulana,wanita,30,43,cerita rakyat,2,yes,membaca
+150,haikal anggraini,pria,102,160,romance,7,yes,membaca
+151,rina kusuma,wanita,63,64,sains,10,yes,belajar
+152,putri hidayat,wanita,14,20,edukasi,16,yes,kerja kelompok
+153,citra sari,wanita,14,7,edukasi,0,no,membaca
+154,gita wijaya,wanita,39,63,fantasy,0,no,membaca
+155,salman utami,pria,34,49,sains,12,yes,belajar
+156,fitri maulana,wanita,20,26,fantasy,2,yes,membaca
+157,dewi sari,wanita,70,54,edukasi,0,no,belajar
+158,olivia,wanita,50,15,comedi,0,no,tidur
+159,juwita aditya,wanita,2,1,math,16,yes,tidur
+160,zara nur,wanita,45,30,math,5,yes,belajar
+161,ilham anggraini,pria,14,0,romance,0,no,kerja tugas
+162,zahra nur,wanita,13,9,cerita rakyat,12,yes,membaca
+163,elsa hidayat,wanita,9,15,cerita rakyat,5,yes,membaca
+164,naufan pratama,pria,43,44,fantasy,7,yes,membaca
+165,yasmin nur,wanita,52,67,romance,24,yes,membaca
+166,salman lestari,pria,27,19,sains,11,yes,membaca
+167,tegar aditya,pria,33,59,sains,12,yes,belajar
+168,nanda kusuma,pria,53,60,math,3,yes,kerja kelompok
+169,malik firmansyah,pria,12,5,cerita rakyat,11,yes,tidur
+170,salsa nur,wanita,69,9,romance,24,yes,membaca
+171,hafiz,pria,15,27,edukasi,24,yes,kerja kelompok
+172,eka anggraini,wanita,24,40,edukasi,4,yes,kerja tugas
+173,bagas utami,pria,18,5,comedi,13,yes,tidur
+174,qori anggraini,wanita,76,104,cerita rakyat,6,yes,membaca
+175,jefri,pria,14,0,romance,0,no,membaca
+176,satria saputra,pria,16,31,romance,22,yes,membaca
+177,krisna ramadhan,pria,2,1,fantasy,0,no,membaca
+178,qori saputra,wanita,38,13,romance,9,yes,membaca
+179,malik permata,pria,25,29,romance,44,yes,membaca
+180,bunga,wanita,30,34,sains,9,yes,belajar
+181,indah wijaya,wanita,51,25,sains,13,yes,kerja tugas
+182,rani sari,wanita,107,50,comedi,0,no,membaca
+183,ulfa saputra,wanita,31,18,math,0,no,belajar
+184,rina lestari,wanita,29,3,sains,0,no,belajar
+185,ulfa,wanita,76,131,cerita rakyat,15,yes,membaca
+186,vera anggraini,wanita,1,0,romance,0,no,tidur
+187,kirana saputra,wanita,14,17,romance,5,yes,membaca
+188,nisa wijaya,wanita,17,15,math,7,yes,kerja tugas
+189,tania saputra,wanita,30,53,sains,26,yes,kerja tugas
+190,fitri firmansyah,wanita,20,20,sains,1,yes,membaca
+191,wulan,wanita,33,37,fantasy,0,no,membaca
+192,hendra sari,pria,2,0,math,0,no,tidur
+193,reza kusuma,pria,25,33,math,13,yes,belajar
+194,yuli ramadhan,wanita,18,6,math,0,no,kerja tugas
+195,zara ramadhan,wanita,55,23,romance,11,yes,membaca
+196,eka utami,wanita,17,1,cerita rakyat,41,yes,membaca
+197,denny wijaya,pria,49,22,cerita rakyat,12,yes,membaca
+198,haikal kusuma,pria,61,40,edukasi,2,yes,membaca
+199,galih hidayat,pria,11,3,cerita rakyat,25,yes,tidur
+200,wulan sari,wanita,35,13,edukasi,4,yes,membaca
+201,olivia aditya,wanita,49,26,romance,0,no,membaca
+202,hana saputra,wanita,52,25,sains,23,yes,kerja kelompok
+203,ulfa nur,wanita,28,20,comedi,3,yes,membaca
+204,nisa hidayat,wanita,15,16,romance,5,yes,kerja kelompok
+205,aulia sari,wanita,9,12,math,25,yes,belajar
+206,kayla,wanita,24,40,cerita rakyat,30,yes,membaca
+207,kholis aditya,pria,64,81,edukasi,0,no,membaca
+208,satria,pria,29,48,romance,0,no,membaca
+209,qori ramadhan,wanita,56,36,cerita rakyat,0,no,membaca
+210,maya wijaya,wanita,13,14,romance,14,yes,membaca
+211,naufal lestari,pria,28,16,edukasi,9,yes,membaca
+212,kayla wijaya,wanita,39,37,edukasi,1,yes,membaca
+213,aldi firmansyah,pria,72,72,fantasy,10,yes,membaca
+214,pandu,pria,86,61,romance,23,yes,membaca
+215,amel kusuma,wanita,7,10,edukasi,4,yes,membaca
+216,laras anggraini,wanita,37,50,edukasi,2,yes,kerja kelompok
+217,amel nur,wanita,42,58,edukasi,0,no,kerja tugas
+218,salsa aditya,wanita,29,9,romance,1,yes,membaca
+219,dela nur,wanita,29,53,math,10,yes,kerja kelompok
+220,eko maulana,pria,9,11,romance,6,yes,membaca
+221,farah lestari,wanita,19,1,edukasi,3,yes,membaca
+222,vina anggraini,wanita,69,40,romance,1,yes,kerja tugas
+223,hendra firmansyah,pria,33,48,fantasy,5,yes,membaca
+224,putri ramadhan,wanita,29,54,math,5,yes,kerja tugas
+225,hendra aditya,pria,19,31,edukasi,7,yes,belajar
+226,tegar wijaya,pria,64,96,fantasy,0,no,membaca
+227,rafi kusuma,pria,51,12,math,4,yes,belajar
+228,bunga permata,wanita,11,27,fantasy,0,no,belajar
+229,rina aditya,wanita,2,0,fantasy,0,no,membaca
+230,candra pratama,pria,14,20,sains,0,no,membaca
+231,gita,wanita,106,38,romance,8,yes,membaca
+232,putra utami,pria,22,19,math,9,yes,kerja tugas
+233,octa permata,wanita,17,21,edukasi,0,no,belajar
+234,januar firmansyah,pria,68,92,edukasi,8,yes,belajar
+235,denny hidayat,pria,30,12,romance,5,yes,membaca
+236,cantika sari,wanita,10,18,sains,0,no,kerja kelompok
+237,intan sari,wanita,73,68,cerita rakyat,0,no,membaca
+238,eka,wanita,5,4,math,5,yes,kerja tugas
+239,tiara utami,wanita,33,41,math,0,no,kerja tugas
+240,gisel kusuma,wanita,32,15,comedi,6,yes,tidur
+241,bella wijaya,wanita,35,37,sains,4,yes,kerja tugas
+242,citra lestari,wanita,25,13,fantasy,14,yes,membaca
+243,prisil,wanita,9,15,cerita rakyat,10,yes,membaca
+244,eka firmansyah,wanita,59,74,sains,1,yes,belajar
+245,nisa pratama,wanita,82,8,romance,2,yes,membaca
+246,lutfi hidayat,pria,12,0,romance,0,no,membaca
+247,fikri firmansyah,pria,30,51,romance,5,yes,kerja tugas
+248,joko ramadhan,pria,72,67,romance,0,no,membaca
+249,naufan,pria,69,45,fantasy,16,yes,membaca
+250,lia sari,wanita,10,2,comedi,0,no,kerja tugas
+251,yasmin firmansyah,wanita,3,0,edukasi,0,no,belajar
+252,hendra wijaya,pria,39,29,edukasi,4,yes,kerja tugas
+253,juwita hidayat,wanita,31,25,romance,8,yes,membaca
+254,qori utami,wanita,89,71,romance,6,yes,membaca
+255,gisel ramadhan,wanita,10,18,edukasi,8,yes,membaca
+256,rizky utami,pria,17,5,cerita rakyat,0,no,tidur
+257,fitri permata,wanita,98,40,edukasi,4,yes,belajar
+258,reza ramadhan,pria,31,31,comedi,9,yes,membaca
+259,lutfi saputra,pria,36,51,edukasi,10,yes,membaca
+260,hesti pratama,wanita,47,39,cerita rakyat,20,yes,membaca
+261,jefri firmansyah,pria,96,97,sains,0,no,kerja tugas
+262,rina,wanita,25,13,cerita rakyat,0,no,membaca
+263,nadia saputra,wanita,3,2,edukasi,0,no,membaca
+264,gilang aditya,pria,23,34,cerita rakyat,9,yes,membaca
+265,naufan anggraini,pria,40,53,edukasi,4,yes,kerja kelompok
+266,hesti sari,wanita,27,18,edukasi,13,yes,membaca
+267,yasmin lestari,wanita,122,110,math,41,yes,belajar
+268,fikri permata,pria,59,66,romance,50,yes,membaca
+269,naufal,pria,25,18,sains,0,no,kerja kelompok
+270,naufal firmansyah,pria,17,12,romance,0,no,membaca
+271,tegar sari,pria,50,10,cerita rakyat,4,yes,membaca
+272,lia nur,wanita,34,13,romance,36,yes,belajar
+273,octa aditya,wanita,30,26,fantasy,2,yes,membaca
+274,jasmine lestari,wanita,17,24,sains,19,yes,belajar
+275,jefri anggraini,pria,57,62,romance,8,yes,membaca
+276,elsa maulana,wanita,18,22,cerita rakyat,0,no,membaca
+277,bella saputra,wanita,15,23,edukasi,0,no,belajar
+278,gilang kusuma,pria,20,5,edukasi,2,yes,membaca
+279,maya sari,wanita,42,51,math,3,yes,belajar
+280,aldi sari,pria,13,4,cerita rakyat,1,yes,membaca
+281,vina sari,wanita,68,62,sains,40,yes,belajar
+282,anisa maulana,wanita,18,1,romance,11,yes,membaca
+283,bella ramadhan,wanita,58,56,comedi,11,yes,membaca
+284,dewi pratama,wanita,74,32,math,0,no,belajar
+285,krisna kusuma,pria,15,6,romance,0,no,membaca
+286,irfan aditya,pria,58,71,romance,0,no,membaca
+287,tiara saputra,wanita,52,74,romance,1,yes,membaca
+288,tania wijaya,wanita,14,27,comedi,0,no,membaca
+289,sinta firmansyah,wanita,30,37,romance,0,no,membaca
+290,farhan utami,pria,57,44,fantasy,1,yes,membaca
+291,intan maulana,wanita,7,0,comedi,0,no,membaca
+292,sinta kusuma,wanita,63,87,sains,0,no,kerja tugas
+293,sinta ramadhan,wanita,15,1,cerita rakyat,23,yes,membaca
+294,budi maulana,pria,23,22,math,8,yes,belajar
+295,laras pratama,wanita,27,1,cerita rakyat,10,yes,membaca
+296,kholis permata,pria,55,52,math,15,yes,kerja tugas
+297,sinta,wanita,27,0,comedi,0,no,tidur
+298,taufik,pria,17,22,romance,5,yes,membaca
+299,candra firmansyah,pria,4,3,cerita rakyat,3,yes,membaca
+300,qori,wanita,59,36,math,16,yes,kerja tugas
+301,windi wijaya,wanita,30,25,sains,0,no,belajar
+302,prisil utami,wanita,43,32,sains,0,no,kerja tugas
+303,elsa aditya,wanita,33,26,romance,30,yes,membaca
+304,umar,pria,53,53,cerita rakyat,0,no,membaca
+305,elsa nur,wanita,29,15,fantasy,0,no,belajar
+306,windi firmansyah,wanita,26,34,comedi,0,no,membaca
+307,prisil lestari,wanita,31,32,sains,1,yes,belajar
+308,denny anggraini,pria,77,125,cerita rakyat,11,yes,belajar
+309,intan lestari,wanita,38,35,romance,21,yes,membaca
+310,kayla hidayat,wanita,46,81,fantasy,13,yes,membaca
+311,irfan nur,pria,17,4,cerita rakyat,0,no,membaca
+312,putri permata,wanita,71,104,edukasi,0,no,membaca
+313,tiara sari,wanita,24,27,sains,3,yes,belajar
+314,hesti anggraini,wanita,21,36,cerita rakyat,7,yes,membaca
+315,umar pratama,pria,9,4,cerita rakyat,2,yes,tidur
+316,aulia firmansyah,wanita,41,14,romance,3,yes,membaca
+317,vino,pria,45,36,sains,5,yes,belajar
+318,bella pratama,wanita,28,39,edukasi,0,no,belajar
+319,arif saputra,pria,19,0,fantasy,0,no,membaca
+320,bella maulana,wanita,32,55,cerita rakyat,9,yes,membaca
+321,rizky sari,pria,1,1,sains,0,no,kerja kelompok
+322,hafiz pratama,pria,36,8,sains,22,yes,belajar
+323,dela firmansyah,wanita,11,28,edukasi,7,yes,kerja tugas
+324,salman maulana,pria,16,0,comedi,0,no,membaca
+325,krisna hidayat,pria,7,2,romance,10,yes,membaca
+326,tania aditya,wanita,60,80,comedi,0,no,kerja tugas
+327,salman hidayat,pria,24,4,sains,2,yes,kerja tugas
+328,salsa kusuma,wanita,35,25,romance,25,yes,membaca
+329,zaki utami,pria,21,24,math,0,no,kerja tugas
+330,hesti kusuma,wanita,96,15,comedi,0,no,membaca
+331,hana nur,wanita,22,27,math,1,yes,membaca
+332,juwita,wanita,15,2,comedi,7,yes,membaca
+333,vina aditya,wanita,68,110,edukasi,4,yes,belajar
+334,fajar sari,pria,79,113,romance,0,no,membaca
+335,gita hidayat,wanita,51,34,romance,12,yes,membaca
+336,kholis hidayat,pria,13,0,math,0,no,belajar
+337,pandu saputra,pria,60,103,edukasi,0,no,membaca
+338,joko,pria,17,0,cerita rakyat,0,no,membaca
+339,windi ramadhan,wanita,9,6,edukasi,0,no,membaca
+340,kholis ramadhan,pria,23,25,cerita rakyat,33,yes,membaca
+341,mawar lestari,wanita,39,53,romance,15,yes,membaca
+342,rani utami,wanita,4,3,romance,3,yes,tidur
+343,mawar maulana,wanita,39,28,edukasi,2,yes,kerja tugas
+344,tiara nur,wanita,14,6,fantasy,1,yes,membaca
+345,tiara lestari,wanita,112,55,comedi,4,yes,belajar
+346,tiara maulana,wanita,30,17,comedi,0,no,membaca
+347,bella anggraini,wanita,82,45,sains,14,yes,belajar
+348,putra pratama,pria,11,8,math,14,yes,belajar
+349,adi firmansyah,pria,67,48,edukasi,5,yes,belajar
+350,windi saputra,wanita,43,61,math,25,yes,kerja tugas
+351,qori nur,wanita,55,96,edukasi,13,yes,membaca
+352,vina saputra,wanita,31,45,comedi,3,yes,membaca
+353,amel lestari,wanita,60,25,romance,7,yes,membaca
+354,galih nur,pria,26,49,cerita rakyat,0,no,membaca
+355,budi pratama,pria,114,160,edukasi,15,yes,membaca
+356,putri pratama,wanita,13,1,romance,2,yes,membaca
+357,citra hidayat,wanita,62,14,sains,4,yes,kerja tugas
+358,zaki hidayat,pria,66,70,romance,1,yes,membaca
+359,amel,wanita,41,20,fantasy,1,yes,membaca
+360,maya ramadhan,wanita,49,78,romance,14,yes,membaca
+361,laras,wanita,75,119,romance,0,no,membaca
+362,mahendra pratama,pria,24,35,romance,10,yes,membaca
+363,zaki saputra,pria,17,10,sains,0,no,belajar
+364,wulan aditya,wanita,20,18,edukasi,2,yes,membaca
+365,olivia anggraini,wanita,6,6,cerita rakyat,0,no,membaca
+366,eko,pria,53,66,edukasi,1,yes,belajar
+367,zara maulana,wanita,66,86,comedi,4,yes,membaca
+368,hana wijaya,wanita,46,13,romance,7,yes,membaca
+369,gita nur,wanita,72,77,edukasi,1,yes,belajar
+370,gita firmansyah,wanita,51,19,edukasi,0,no,membaca
+371,rangga firmansyah,pria,55,81,sains,0,no,kerja tugas
+372,octa hidayat,wanita,59,91,fantasy,0,no,membaca
+373,bayu lestari,pria,92,96,romance,10,yes,membaca
+374,jasmine ramadhan,wanita,67,53,sains,0,no,kerja tugas
+375,olivia pratama,wanita,56,35,sains,1,yes,belajar
+376,eka hidayat,wanita,22,8,sains,0,no,membaca
+377,hesti firmansyah,wanita,18,1,math,4,yes,tidur
+378,tania,wanita,30,2,fantasy,15,yes,tidur
+379,zahra firmansyah,wanita,27,17,cerita rakyat,8,yes,membaca
+380,yasmin wijaya,wanita,25,42,romance,6,yes,membaca
+381,rina ramadhan,wanita,45,47,romance,4,yes,membaca
+382,wulan wijaya,wanita,39,3,romance,6,yes,membaca
+383,naufal wijaya,pria,21,8,cerita rakyat,2,yes,membaca
+384,dewi anggraini,wanita,31,40,math,4,yes,kerja tugas
+385,octa ramadhan,wanita,27,46,edukasi,3,yes,belajar
+386,jefri kusuma,pria,25,13,fantasy,1,yes,membaca
+387,satria nur,pria,73,95,cerita rakyat,11,yes,membaca
+388,hafiz hidayat,pria,2,0,comedi,0,no,tidur
+389,salsa permata,wanita,32,24,math,24,yes,membaca
+390,laras wijaya,wanita,36,19,cerita rakyat,35,yes,membaca
+391,yoga permata,pria,26,31,sains,1,yes,belajar
+392,hafiz ramadhan,pria,63,104,cerita rakyat,10,yes,membaca
+393,hana anggraini,wanita,67,97,edukasi,13,yes,belajar
+394,fitri sari,wanita,48,64,fantasy,0,no,membaca
+395,putra aditya,pria,32,14,math,0,no,belajar
+396,maya lestari,wanita,43,50,romance,6,yes,membaca
+397,sinta wijaya,wanita,26,40,comedi,7,yes,membaca
+398,mawar aditya,wanita,18,18,sains,6,yes,belajar
+399,fitri anggraini,wanita,36,36,romance,14,yes,membaca
+400,cantika saputra,wanita,43,66,edukasi,0,no,membaca
+401,zaki firmansyah,pria,52,20,sains,35,yes,belajar
+402,bagas permata,pria,45,59,edukasi,1,yes,belajar
+403,eka pratama,wanita,35,47,comedi,7,yes,membaca
+404,bella nur,wanita,59,19,cerita rakyat,10,yes,membaca
+405,naufan permata,pria,32,15,fantasy,7,yes,tidur
+406,hendra nur,pria,10,12,cerita rakyat,6,yes,membaca
+407,vera saputra,wanita,82,77,comedi,0,no,membaca
+408,rangga ramadhan,pria,33,20,romance,0,no,membaca
+409,mawar sari,wanita,6,6,fantasy,0,no,membaca
+410,zaki wijaya,pria,50,47,romance,9,yes,membaca
+411,vino hidayat,pria,125,40,cerita rakyat,1,yes,membaca
+412,vino lestari,pria,11,4,math,0,no,kerja kelompok
+413,anisa,wanita,30,46,romance,8,yes,membaca
+414,aulia saputra,wanita,40,72,romance,7,yes,membaca
+415,kayla nur,wanita,18,25,edukasi,5,yes,membaca
+416,taufik ramadhan,pria,18,31,edukasi,1,yes,membaca
+417,nisa anggraini,wanita,28,32,edukasi,11,yes,belajar
+418,bunga nur,wanita,32,19,edukasi,15,yes,membaca
+419,adi pratama,pria,46,56,comedi,2,yes,membaca
+420,eka aditya,wanita,99,93,math,14,yes,membaca
+421,lutfi,pria,8,2,comedi,9,yes,tidur
+422,fitri pratama,wanita,32,46,sains,21,yes,kerja kelompok
+423,tegar nur,pria,118,69,romance,13,yes,membaca
+424,januar ramadhan,pria,41,13,sains,51,yes,belajar
+425,qori kusuma,wanita,5,5,romance,1,yes,belajar
+426,fajar,pria,15,0,sains,0,no,tidur
+427,dewi,wanita,22,13,comedi,0,no,membaca
+428,jasmine sari,wanita,18,0,sains,0,no,membaca
+429,gita sari,wanita,20,3,comedi,0,no,tidur
+430,kayla pratama,wanita,8,2,romance,0,no,membaca
+431,octa,wanita,39,64,romance,14,yes,membaca
+432,ikhsan saputra,pria,55,96,romance,21,yes,membaca
+433,juwita pratama,wanita,16,24,sains,1,yes,belajar
+434,intan firmansyah,wanita,24,8,math,18,yes,belajar
+435,joko wijaya,pria,17,19,comedi,1,yes,membaca
+436,lia hidayat,wanita,41,39,cerita rakyat,0,no,membaca
+437,vina utami,wanita,20,18,sains,10,yes,belajar
+438,bella utami,wanita,65,93,romance,0,no,membaca
+439,kirana kusuma,wanita,26,28,sains,11,yes,kerja tugas
+440,candra maulana,pria,86,123,cerita rakyat,11,yes,membaca
+441,kayla aditya,wanita,38,19,fantasy,3,yes,belajar
+442,hana ramadhan,wanita,32,41,math,4,yes,membaca
+443,citra,wanita,43,49,fantasy,13,yes,membaca
+444,budi,pria,38,59,math,1,yes,belajar
+445,tiara ramadhan,wanita,6,3,math,8,yes,tidur
+446,tegar,pria,23,8,fantasy,0,no,membaca
+447,pandu ramadhan,pria,28,41,cerita rakyat,0,no,membaca
+448,elsa utami,wanita,49,47,fantasy,4,yes,membaca
+449,cantika kusuma,wanita,55,74,romance,0,no,membaca
+450,zahra,wanita,65,70,romance,4,yes,membaca
+451,zahra pratama,wanita,41,53,cerita rakyat,34,yes,membaca
+452,putra,pria,16,9,romance,18,yes,membaca
+453,dela aditya,wanita,12,14,cerita rakyat,13,yes,membaca
+454,zaki sari,pria,22,8,fantasy,21,yes,membaca
+455,gita utami,wanita,44,34,romance,16,yes,belajar
+456,nisa kusuma,wanita,7,3,fantasy,12,yes,membaca
+457,lia,wanita,69,84,romance,7,yes,membaca
+458,wulan utami,wanita,43,13,comedi,0,no,tidur
+459,taufik permata,pria,54,57,cerita rakyat,0,no,membaca
+460,yuli,wanita,34,33,math,3,yes,kerja kelompok
+461,denny saputra,pria,24,27,romance,1,yes,membaca
+462,mawar ramadhan,wanita,5,1,sains,0,no,tidur
+463,elsa,wanita,102,160,sains,5,yes,belajar
+464,rizky wijaya,pria,18,27,romance,1,yes,membaca
+465,wulan maulana,wanita,19,2,romance,3,yes,membaca
+466,kayla maulana,wanita,34,6,romance,4,yes,membaca
+467,hana lestari,wanita,46,45,romance,26,yes,membaca
+468,rina wijaya,wanita,34,18,romance,5,yes,membaca
+469,gita permata,wanita,48,35,comedi,2,yes,membaca
+470,hesti nur,wanita,43,17,edukasi,17,yes,kerja kelompok
+471,anisa utami,wanita,21,16,romance,1,yes,membaca
+472,naufan lestari,pria,46,28,cerita rakyat,13,yes,membaca
+473,anisa lestari,wanita,15,21,edukasi,2,yes,belajar
+474,wulan nur,wanita,31,36,math,1,yes,belajar
+475,farah maulana,wanita,41,69,edukasi,1,yes,membaca
+476,amel ramadhan,wanita,29,20,fantasy,11,yes,membaca
+477,luthfi sari,pria,3,4,edukasi,0,no,membaca
+478,satria lestari,pria,10,25,fantasy,0,no,membaca
+479,tania anggraini,wanita,32,39,romance,8,yes,membaca
+480,vina permata,wanita,99,34,romance,4,yes,membaca
+481,denny maulana,pria,39,30,math,11,yes,kerja kelompok
+482,haikal nur,pria,42,59,romance,4,yes,membaca
+483,fitri aditya,wanita,14,8,cerita rakyat,0,no,membaca
+484,olivia saputra,wanita,26,35,comedi,10,yes,membaca
+485,hana sari,wanita,38,32,edukasi,0,no,membaca
+486,anisa sari,wanita,13,8,romance,2,yes,membaca
+487,jasmine,wanita,37,38,math,11,yes,kerja kelompok
+488,vina kusuma,wanita,11,10,edukasi,10,yes,kerja tugas
+489,kevin,pria,51,89,romance,1,yes,membaca
+490,adi sari,pria,56,71,edukasi,6,yes,belajar
+491,pandu nur,pria,29,11,edukasi,0,no,membaca
+492,yasmin anggraini,wanita,25,22,edukasi,8,yes,belajar
+493,juwita ramadhan,wanita,76,113,edukasi,5,yes,belajar
+494,galih pratama,pria,125,34,romance,16,yes,kerja tugas
+495,taufik wijaya,pria,14,17,romance,0,no,membaca
+496,prisil firmansyah,wanita,86,145,sains,3,yes,belajar
+497,elsa kusuma,wanita,23,0,romance,0,no,membaca
+498,cantika wijaya,wanita,50,20,comedi,13,yes,tidur
+499,laras saputra,wanita,90,77,romance,0,no,membaca
+500,dimas nur,pria,41,52,sains,14,yes,belajar
