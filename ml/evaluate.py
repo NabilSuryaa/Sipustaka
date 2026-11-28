@@ -57,5 +57,5 @@ if __name__ == "__main__":
     print(f"{'K':<4}{'Tepat (model)':<16}{'Tepat (populer)':<17}{'Genre (model)':<15}{'Genre (populer)':<15}")
     for k in (3, 5, 10):
         h, _ = precision_at_k(svc, latih, uji, k)
-        print(f"{k:<4}{h['model'][0]:<16.3f}{h['populer'][0]:<17.3f}{h['model'][1]:<15.3f}{h['Populer'][1]:<15.3f}")
+        print(f"{k:<4}{h['model'][0]:<16.3f}{h['populer'][0]:<17.3f}{h['model'][1]:<15.3f}{h['populer'][1]:<15.3f}")
         
