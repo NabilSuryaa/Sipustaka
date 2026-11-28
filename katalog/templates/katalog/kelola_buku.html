@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelola Data Buku — SIPUSTAKA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        :root {
+            --emerald-dark: #064E3B;
+            --emerald-primary: #0F766E;
+            --emerald-accent: #10B981;
+            --glass-bg: rgba(255, 255, 255, 0.78);
+            --glass-border: rgba(255, 255, 255, 0.55);
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #ECFDF5 0%, #D1FAE5 45%, #E0F2FE 100%);
+            min-height: 100vh;
+            color: #1E293B;
+        }
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            border: 1px solid var(--glass-border);
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(6, 78, 59, 0.08);
+        }
+        .btn-emerald {
+            background: linear-gradient(135deg, var(--emerald-primary), var(--emerald-accent));
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            font-weight: 500;
+        }
+        .btn-emerald:hover {
+            opacity: 0.92;
+            color: #fff;
+        }
+        .badge-stok {
+            background-color: #D1FAE5;
+            color: #065F46;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="py-4">
+<div class="container-fluid px-4">
+
+    <!-- Header Halaman -->
+    <div class="glass-card p-4 mb-4 d-flex flex-wrap justify-content-between align-items-center gap-3">
+        <div>
+            <h4 class="fw-bold mb-1" style="color: var(--emerald-dark);">
+                <i class="bi bi-book-half me-2"></i>Kelola Data Buku
+            </h4>
+            <p class="text-muted small mb-0">Manajemen katalog koleksi pustaka & impor massal dataset CSV</p>
+        </div>
+        <div class="d-flex gap-2">
+            <button class="btn btn-outline-success rounded-3" data-bs-toggle="modal" data-bs-target="#modalImporCSV">
+                <i class="bi bi-file-earmark-spreadsheet me-1"></i> Impor CSV
+            </button>
+            <button class="btn btn-emerald px-3" data-bs-toggle="modal" data-bs-target="#modalTambahBuku">
+                <i class="bi bi-plus-lg me-1"></i> Tambah Buku
+            </button>
+        </div>
+    </div>
+
+    <!-- Notifikasi Alert -->
+    {% if messages %}
+        {% for message in messages %}
+            <div class="alert alert-{% if message.tags == 'error' %}danger{% else %}success{% endif %} alert-dismissible fade show rounded-3 shadow-sm" role="alert">
+                {{ message }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        {% endfor %}
+    {% endif %}
+
+    <!-- Filter & Pencarian -->
+    <div class="glass-card p-3 mb-4">
+        <form method="GET" class="row g-2 align-items-center">
+            <div class="col-md-6">
+                <input type="text" name="q" value="{{ query }}" class="form-control rounded-3" placeholder="Cari judul, penulis, kode buku, atau ISBN...">
+            </div>
+            <div class="col-md-4">
+                <select name="kategori" class="form-select rounded-3">
+                    <option value="">Semua Kategori</option>
+                    {% for kat in kategori_unik %}
+                        <option value="{{ kat }}" {% if kategori_filter == kat %}selected{% endif %}>{{ kat }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-2 d-grid">
+                <button type="submit" class="btn btn-emerald"><i class="bi bi-search me-1"></i> Filter</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Tabel Katalog Buku -->
+    <div class="glass-card p-4">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>ID / Kode</th>
+                        <th>Judul & Penulis</th>
+                        <th>Kategori & Section</th>
+                        <th>Tahun</th>
+                        <th>Stok</th>
+                        <th class="text-end">Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for buku in page_obj %}
+                    <tr>
+                        <td>
+                            <span class="fw-semibold text-dark">#{{ buku.id_buku }}</span><br>
+                            <small class="text-muted">{{ buku.kode_buku|default:"-" }}</small>
+                        </td>
+                        <td>
+                            <div class="fw-semibold">{{ buku.judul }}</div>
+                            <small class="text-muted">{{ buku.penulis|default:"Anonim" }}</small>
+                        </td>
+                        <td>
+                            <span class="badge bg-light text-dark border">{{ buku.kategori|default:"-" }}</span>
+                            <div class="small text-muted mt-1">{{ buku.section|default:"-" }}</div>
+                        </td>
+                        <td>{{ buku.year_published|default:"-" }}</td>
+                        <td>
+                            <span class="badge badge-stok px-2 py-1">
+                                {{ buku.jumlah_tersedia }} / {{ buku.jumlah_total }}
+                            </span>
+                        </td>
+                        <td class="text-end">
+                            <button class="btn btn-sm btn-outline-primary rounded-2" data-bs-toggle="modal" data-bs-target="#modalEdit{{ buku.id_buku }}">
+                                <i class="bi bi-pencil"></i>
+                            </button>
+                            <form method="POST" action="{% url 'hapus_buku' buku.id_buku %}" class="d-inline" onsubmit="return confirm('Hapus buku {{ buku.judul }}?');">
+                                {% csrf_token %}
+                                <button type="submit" class="btn btn-sm btn-outline-danger rounded-2">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+
+                    <!-- Modal Edit Buku -->
+                    <div class="modal fade" id="modalEdit{{ buku.id_buku }}" tabindex="-1">
+                        <div class="modal-dialog modal-lg">
+                            <form method="POST" action="{% url 'edit_buku' buku.id_buku %}" class="modal-content rounded-4">
+                                {% csrf_token %}
+                                <div class="modal-header">
+                                    <h5 class="modal-title fw-bold">Edit Data Buku</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body row g-3">
+                                    <div class="col-md-4">
+                                        <label class="form-label small fw-semibold">Kode Buku</label>
+                                        <input type="text" name="kode_buku" value="{{ buku.kode_buku|default:'' }}" class="form-control">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label class="form-label small fw-semibold">ISBN</label>
+                                        <input type="text" name="isbn" value="{{ buku.isbn|default:'' }}" class="form-control">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label class="form-label small fw-semibold">Tahun Terbit</label>
+                                        <input type="text" name="year_published" value="{{ buku.year_published|default:'' }}" class="form-control">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <label class="form-label small fw-semibold">Judul Buku *</label>
+                                        <input type="text" name="judul" value="{{ buku.judul }}" class="form-control" required>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label class="form-label small fw-semibold">Jumlah Total Stok</label>
+                                        <input type="number" name="jumlah_total" value="{{ buku.jumlah_total }}" min="1" class="form-control">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label small fw-semibold">Penulis</label>
+                                        <input type="text" name="penulis" value="{{ buku.penulis|default:'' }}" class="form-control">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label class="form-label small fw-semibold">Kategori</label>
+                                        <input type="text" name="kategori" value="{{ buku.kategori|default:'' }}" class="form-control">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label class="form-label small fw-semibold">Section / Rak</label>
+                                        <input type="text" name="section" value="{{ buku.section|default:'' }}" class="form-control">
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label small fw-semibold">Subjek / Kata Kunci (TF-IDF)</label>
+                                        <textarea name="subjects" rows="2" class="form-control">{{ buku.subjects|default:'' }}</textarea>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Batal</button>
+                                    <button type="submit" class="btn btn-emerald">Simpan Perubahan</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    {% empty %}
+                    <tr>
+                        <td colspan="6" class="text-center py-4 text-muted">Belum ada data buku. Silakan tambah manual atau impor file CSV.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Paginasi -->
+        <nav class="mt-3">
+            <ul class="pagination justify-content-end mb-0">
+                {% if page_obj.has_previous %}
+                    <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}&q={{ query }}&kategori={{ kategori_filter }}">Sebelumnya</a></li>
+                {% endif %}
+                <li class="page-item disabled"><span class="page-link">Halaman {{ page_obj.number }} dari {{ page_obj.paginator.num_pages }}</span></li>
+                {% if page_obj.has_next %}
+                    <li class="page-item"><a class="page-link" href="?page={{ page_obj.next_page_number }}&q={{ query }}&kategori={{ kategori_filter }}">Berikutnya</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<!-- Modal Tambah Buku Manual -->
+<div class="modal fade" id="modalTambahBuku" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <form method="POST" action="{% url 'tambah_buku' %}" class="modal-content rounded-4">
+            {% csrf_token %}
+            <div class="modal-header">
+                <h5 class="modal-title fw-bold">Tambah Buku Baru</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body row g-3">
+                <div class="col-md-4">
+                    <label class="form-label small fw-semibold">Kode Buku</label>
+                    <input type="text" name="kode_buku" placeholder="Contoh: RPL-004" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label small fw-semibold">ISBN</label>
+                    <input type="text" name="isbn" placeholder="13 digit ISBN" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label small fw-semibold">Tahun Terbit</label>
+                    <input type="text" name="year_published" placeholder="2024" class="form-control">
+                </div>
+                <div class="col-md-8">
+                    <label class="form-label small fw-semibold">Judul Buku *</label>
+                    <input type="text" name="judul" class="form-control" required>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label small fw-semibold">Jumlah Eksemplar</label>
+                    <input type="number" name="jumlah_total" value="5" min="1" class="form-control">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label small fw-semibold">Penulis</label>
+                    <input type="text" name="penulis" class="form-control">
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label small fw-semibold">Kategori</label>
+                    <input type="text" name="kategori" class="form-control">
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label small fw-semibold">Section</label>
+                    <input type="text" name="section" class="form-control">
+                </div>
+                <div class="col-12">
+                    <label class="form-label small fw-semibold">Subjek / Kata Kunci (TF-IDF)</label>
+                    <textarea name="subjects" rows="2" class="form-control" placeholder="Pisahkan dengan koma..."></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Batal</button>
+                <button type="submit" class="btn btn-emerald">Simpan Buku</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Modal Impor CSV -->
+<div class="modal fade" id="modalImporCSV" tabindex="-1">
+    <div class="modal-dialog">
+        <form method="POST" action="{% url 'impor_buku_csv' %}" enctype="multipart/form-data" class="modal-content rounded-4">
+            {% csrf_token %}
+            <div class="modal-header">
+                <h5 class="modal-title fw-bold">Impor Katalog dari CSV</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p class="small text-muted">Unggah file <code>buku_bersih.csv</code> yang memiliki kolom wajib: <strong>judul, penulis, kategori, section, subjects</strong>.</p>
+                <input type="file" name="file_csv" accept=".csv" class="form-control" required>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Batal</button>
+                <button type="submit" class="btn btn-emerald">Unggah & Impor</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
